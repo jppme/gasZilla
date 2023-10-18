@@ -6,7 +6,9 @@ function test_gasZilla() {
      e.g. https://www.example.com/test/fileZillaTest 
      Relative path notation is also allowed you can use
      targetFolder = '../fileZillaTest' to aim
-     https://www.example.com/fileZillaTest 
+     https://www.example.com/fileZillaTest
+     targetFolder = '.' to aim
+     https://www.example.com/ i.e. baseUrl
   */
   let fileBlob; // file will be created or overwitten based on file name
   if (false) {
